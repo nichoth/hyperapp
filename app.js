@@ -68,6 +68,7 @@ module.exports = function (options) {
         }
     }
 
+    // create msg functions
     for (var name in merge(reducers, effects)) {
         (function (name) {
             msg[name] = function (data) {
