@@ -14,8 +14,8 @@ npm i hyperapp
 
 CDN
 ```html
-<script src="https://cdn.rawgit.com/hyperapp/hyperapp/master/dist/app.min.js"></script>
-<script src="https://cdn.rawgit.com/hyperapp/hyperapp/master/dist/html.min.js"></script>
+<script src="https://cdn.rawgit.com/hyperapp/hyperapp/0.0.7/dist/app.min.js"></script>
+<script src="https://cdn.rawgit.com/hyperapp/hyperapp/0.0.7/dist/html.min.js"></script>
 ```
 
 Browserify
@@ -53,7 +53,7 @@ app({
         <div>
             <button onclick=${msg.add}>+</button>
             <h1>${model}</h1>
-            <button onclick=${msg.sub} disabled=${model <= 0}>–</button>
+            <button onclick=${msg.sub} disabled=${model <= 0}>-</button>
         </div>`
 })
 ```
